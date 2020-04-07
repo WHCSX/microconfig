@@ -33,7 +33,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mldn8001?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
     username: root
-    password: 123456
+    password: '{cipher}fda5f63aa4f07f932354f33fe4cc94d74c57669bcd687491738e2f65d945d3f5'
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -72,7 +72,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mldn8001?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
     username: root
-    password: 123456
+    password: '{cipher}fda5f63aa4f07f932354f33fe4cc94d74c57669bcd687491738e2f65d945d3f5'
     dbcp2:
       min-idle: 5
       initial-size: 5
